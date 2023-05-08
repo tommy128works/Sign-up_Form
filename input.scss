@@ -8,5 +8,38 @@ label, input {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
+#logo-image {
+    height: 15vh;
+    width: auto;
+}
+
+@font-face {
+    font-family: norseBold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+#logo-heading {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    span {
+        color: white;
+        font-weight: bold;
+        font-size: 10vh;
+        font-family: norseBold;
+    }
+}
+
+#image-credit {
+    color: black;
+    font-size: max(10px, 1.2vh);
+    margin-bottom: 1vh;
+    align-self: flex-end;
+    a {
+        color: inherit;
+    }
+}
