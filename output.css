@@ -57,4 +57,15 @@ label, input {
   line-height: 1em;
 }
 
+#forms-container {
+  margin-bottom: 2vh;
+}
+#forms-container div {
+  font-size: max(12px, 2vh);
+}
+
+#create-account-container div {
+  margin-top: 2vh;
+}
+
 /*# sourceMappingURL=output.css.map */
